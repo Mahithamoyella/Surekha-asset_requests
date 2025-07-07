@@ -42,7 +42,7 @@ services:
     build: ./Hr-Asset
     container_name: asset_hr_ui
     ports:
-      - "8030:80"
+      - "8029:80"
     depends_on:
       - backend
 
